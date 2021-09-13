@@ -1,23 +1,75 @@
 
 
+header{
+    background-image: url("../img/pattern.png");
+    background-color: rgb(0, 174, 255);
+    height: 100px;;
+    background-size: 400px;
+}
+
 #logo{
-    width: 100px;
+    margin-top: 50px;
+    width: 150px;
     height: 50px;
 
 }
-table{
-text-align: left;
+
+h1 {
+    font-size: 30px;
+    font-weight: 10000;
 }
 
-.important{  
+#autor {
+    color: rgb(70, 238, 250);
+}
+
+section h6{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+table{
+text-align: left;
+border-spacing: 0px;
+}
+
+.divisore {
+    width: 25%;
+}
+
+
+
+.important {  
     background-color: yellow;
 }
 
-thead{
+thead{ 
     background-color: rgb(0, 174, 255) ;
     color: white;
 }
 
 .blu_row{
     background-color: rgb(113, 231, 247);
+
+}
+
+footer h2{
+    color: white;
+}
+
+#img1_footer {
+  
+    background-image: url("../img/monitor.jpg");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 200px;
+}
+
+#img2_footer {
+
+    background-image: url("../img/graph.jpg");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 200px;
 }
